@@ -9,6 +9,7 @@ scaler = joblib.load('scaler.joblib')
 top_features = joblib.load('top_features.joblib')
 
 # Judul aplikasi
+st.write("Fitur yang diharapkan:", top_features)
 st.title('🔍 Prediksi Churn Pelanggan')
 st.write('Aplikasi prediksi churn menggunakan model **Random Forest** terbaik.')
 
